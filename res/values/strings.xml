@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExpandTextView</string>
+    <string name="content_one">在平时的开发过程中，相信都会使用到多线程，在使用多线程时，大家也会遇到各种各样的问题，今天我们就来说说一个多线程的问题——线程中断。在java中启动线程非常容易，大多数情况下我是让一个线程执行完自己的任务然后自己停掉，但是有时候我们需要取消某个操作，比如你在网络下载时，有时候需要取消下载。实现线程的安全中断并不是一件容易的事情，因为Java并不支持安全快速中断线程的机制，这里估计很多同学就会说了，java不是提供了Thread.interrupt 方法中断线程吗，好吧，我们今天就从这个方法开始说起</string>
+    <string name="content_two">在平时的开发过程中，相信都会使用到多线程，</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

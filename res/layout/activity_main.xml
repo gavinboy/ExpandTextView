@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:expand="http://schemas.android.com/apk/res/com.gavin.expandable.textview"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.gavin.expandable.textview.MainActivity" >
+
+    <com.gavin.expandable.textview.ExpandTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        expand:text="@string/content_one"
+        expand:textcolor="#FF0000"
+        expand:textsize="15sp"
+        expand:icon="@drawable/text_expand"
+        expand:lines="2"
+        />
+</LinearLayout>
